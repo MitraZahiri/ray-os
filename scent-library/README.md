@@ -98,15 +98,10 @@ Baseline
 Clean-air recordings will be used as the primary baseline for comparing scent responses.
 
 Initial Experiment
-
 The first planned classification experiment is:
-
 Clean Air vs Coffee vs Lemon
-
 Future experiments will expand the dataset to additional scent families.
 
 Important
-
 Reference compounds listed in the scent library are descriptive chemical references.
-
 They must not be interpreted as compounds directly detected or identified by the BME688 sensor.
