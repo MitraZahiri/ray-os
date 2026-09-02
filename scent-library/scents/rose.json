@@ -1,0 +1,46 @@
+{
+  "id": "ray-scent-005",
+  "name": "Rose",
+  "scientific_name": "Rosa damascena",
+  "category": "flower",
+  "families": ["floral"],
+  "descriptors": [
+    "floral",
+    "sweet",
+    "fresh",
+    "aromatic"
+  ],
+  "dominant_notes": [
+    {
+      "name": "floral",
+      "intensity": 0.95
+    },
+    {
+      "name": "sweet",
+      "intensity": 0.55
+    },
+    {
+      "name": "fresh",
+      "intensity": 0.45
+    }
+  ],
+  "reference_compounds": [
+    {
+      "name": "citronellol",
+      "role": "rose-like floral aroma"
+    },
+    {
+      "name": "geraniol",
+      "role": "sweet floral aroma"
+    }
+  ],
+  "sensor_profile": {
+    "sensor": "BME688",
+    "samples_available": false,
+    "dataset_path": null
+  },
+  "metadata": {
+    "version": "0.2.0",
+    "status": "reference"
+  }
+}

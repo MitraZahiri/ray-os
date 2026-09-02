@@ -1,0 +1,49 @@
+{
+  "id": "ray-scent-006",
+  "name": "Lavender",
+  "scientific_name": "Lavandula angustifolia",
+  "category": "flower",
+  "families": [
+    "floral",
+    "herbal"
+  ],
+  "descriptors": [
+    "floral",
+    "herbal",
+    "fresh",
+    "aromatic"
+  ],
+  "dominant_notes": [
+    {
+      "name": "floral",
+      "intensity": 0.85
+    },
+    {
+      "name": "herbal",
+      "intensity": 0.65
+    },
+    {
+      "name": "fresh",
+      "intensity": 0.45
+    }
+  ],
+  "reference_compounds": [
+    {
+      "name": "linalool",
+      "role": "floral and fresh aroma"
+    },
+    {
+      "name": "linalyl acetate",
+      "role": "sweet floral aroma"
+    }
+  ],
+  "sensor_profile": {
+    "sensor": "BME688",
+    "samples_available": false,
+    "dataset_path": null
+  },
+  "metadata": {
+    "version": "0.2.0",
+    "status": "reference"
+  }
+}

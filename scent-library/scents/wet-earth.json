@@ -1,0 +1,43 @@
+{
+  "id": "ray-scent-011",
+  "name": "Wet Earth",
+  "scientific_name": null,
+  "category": "environment",
+  "families": [
+    "earthy"
+  ],
+  "descriptors": [
+    "earthy",
+    "green",
+    "fresh"
+  ],
+  "dominant_notes": [
+    {
+      "name": "earthy",
+      "intensity": 0.95
+    },
+    {
+      "name": "green",
+      "intensity": 0.45
+    },
+    {
+      "name": "fresh",
+      "intensity": 0.35
+    }
+  ],
+  "reference_compounds": [
+    {
+      "name": "geosmin",
+      "role": "earthy soil aroma"
+    }
+  ],
+  "sensor_profile": {
+    "sensor": "BME688",
+    "samples_available": false,
+    "dataset_path": null
+  },
+  "metadata": {
+    "version": "0.2.0",
+    "status": "reference"
+  }
+}

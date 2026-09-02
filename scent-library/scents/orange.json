@@ -1,0 +1,46 @@
+{
+  "id": "ray-scent-004",
+  "name": "Orange",
+  "scientific_name": "Citrus sinensis",
+  "category": "fruit",
+  "families": ["citrus"],
+  "descriptors": [
+    "fresh",
+    "sweet",
+    "fruity",
+    "citrus"
+  ],
+  "dominant_notes": [
+    {
+      "name": "citrus",
+      "intensity": 0.95
+    },
+    {
+      "name": "sweet",
+      "intensity": 0.6
+    },
+    {
+      "name": "fresh",
+      "intensity": 0.8
+    }
+  ],
+  "reference_compounds": [
+    {
+      "name": "limonene",
+      "role": "dominant citrus aroma"
+    },
+    {
+      "name": "linalool",
+      "role": "fresh floral-citrus nuance"
+    }
+  ],
+  "sensor_profile": {
+    "sensor": "BME688",
+    "samples_available": false,
+    "dataset_path": null
+  },
+  "metadata": {
+    "version": "0.2.0",
+    "status": "reference"
+  }
+}

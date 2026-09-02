@@ -1,0 +1,50 @@
+{
+  "id": "ray-scent-007",
+  "name": "Peppermint",
+  "scientific_name": "Mentha × piperita",
+  "category": "herb",
+  "families": [
+    "mint",
+    "herbal"
+  ],
+  "descriptors": [
+    "minty",
+    "cool",
+    "fresh",
+    "herbal",
+    "sharp"
+  ],
+  "dominant_notes": [
+    {
+      "name": "minty",
+      "intensity": 0.95
+    },
+    {
+      "name": "cool",
+      "intensity": 0.85
+    },
+    {
+      "name": "herbal",
+      "intensity": 0.55
+    }
+  ],
+  "reference_compounds": [
+    {
+      "name": "menthol",
+      "role": "cooling mint aroma"
+    },
+    {
+      "name": "menthone",
+      "role": "mint-like aroma"
+    }
+  ],
+  "sensor_profile": {
+    "sensor": "BME688",
+    "samples_available": false,
+    "dataset_path": null
+  },
+  "metadata": {
+    "version": "0.2.0",
+    "status": "reference"
+  }
+}

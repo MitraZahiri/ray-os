@@ -1,0 +1,45 @@
+{
+  "id": "ray-scent-009",
+  "name": "Cinnamon",
+  "scientific_name": "Cinnamomum verum",
+  "category": "spice",
+  "families": [
+    "spicy",
+    "sweet"
+  ],
+  "descriptors": [
+    "spicy",
+    "warm",
+    "sweet",
+    "woody"
+  ],
+  "dominant_notes": [
+    {
+      "name": "spicy",
+      "intensity": 0.9
+    },
+    {
+      "name": "warm",
+      "intensity": 0.8
+    },
+    {
+      "name": "sweet",
+      "intensity": 0.5
+    }
+  ],
+  "reference_compounds": [
+    {
+      "name": "cinnamaldehyde",
+      "role": "characteristic cinnamon aroma"
+    }
+  ],
+  "sensor_profile": {
+    "sensor": "BME688",
+    "samples_available": false,
+    "dataset_path": null
+  },
+  "metadata": {
+    "version": "0.2.0",
+    "status": "reference"
+  }
+}
