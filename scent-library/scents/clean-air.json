@@ -1,0 +1,19 @@
+{
+  "id": "ray-scent-001",
+  "name": "Clean Air",
+  "scientific_name": null,
+  "category": "environment",
+  "families": ["ambient"],
+  "descriptors": ["clean", "fresh"],
+  "dominant_notes": [],
+  "reference_compounds": [],
+  "sensor_profile": {
+    "sensor": "BME688",
+    "samples_available": false,
+    "dataset_path": null
+  },
+  "metadata": {
+    "version": "0.1.0",
+    "status": "reference"
+  }
+}
