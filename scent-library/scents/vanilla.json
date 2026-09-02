@@ -1,0 +1,44 @@
+{
+  "id": "ray-scent-008",
+  "name": "Vanilla",
+  "scientific_name": "Vanilla planifolia",
+  "category": "spice",
+  "families": [
+    "sweet"
+  ],
+  "descriptors": [
+    "sweet",
+    "creamy",
+    "warm",
+    "aromatic"
+  ],
+  "dominant_notes": [
+    {
+      "name": "sweet",
+      "intensity": 0.95
+    },
+    {
+      "name": "creamy",
+      "intensity": 0.75
+    },
+    {
+      "name": "warm",
+      "intensity": 0.6
+    }
+  ],
+  "reference_compounds": [
+    {
+      "name": "vanillin",
+      "role": "characteristic vanilla aroma"
+    }
+  ],
+  "sensor_profile": {
+    "sensor": "BME688",
+    "samples_available": false,
+    "dataset_path": null
+  },
+  "metadata": {
+    "version": "0.2.0",
+    "status": "reference"
+  }
+}

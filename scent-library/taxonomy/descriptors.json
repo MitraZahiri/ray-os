@@ -1,16 +1,19 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
 
   "descriptors": [
     "acidic",
     "aromatic",
     "bitter",
+    "citrus",
     "clean",
     "cool",
     "creamy",
     "dry",
     "earthy",
+    "floral",
     "fresh",
+    "fruity",
     "green",
     "herbal",
     "minty",

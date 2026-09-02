@@ -1,0 +1,50 @@
+{
+  "id": "ray-scent-010",
+  "name": "Pine",
+  "scientific_name": "Pinus sylvestris",
+  "category": "tree",
+  "families": [
+    "woody",
+    "resinous",
+    "green"
+  ],
+  "descriptors": [
+    "woody",
+    "resinous",
+    "green",
+    "fresh"
+  ],
+  "dominant_notes": [
+    {
+      "name": "woody",
+      "intensity": 0.8
+    },
+    {
+      "name": "resinous",
+      "intensity": 0.8
+    },
+    {
+      "name": "green",
+      "intensity": 0.6
+    }
+  ],
+  "reference_compounds": [
+    {
+      "name": "alpha-pinene",
+      "role": "fresh pine and resin aroma"
+    },
+    {
+      "name": "beta-pinene",
+      "role": "woody green aroma"
+    }
+  ],
+  "sensor_profile": {
+    "sensor": "BME688",
+    "samples_available": false,
+    "dataset_path": null
+  },
+  "metadata": {
+    "version": "0.2.0",
+    "status": "reference"
+  }
+}
