@@ -1,0 +1,46 @@
+{
+  "id": "ray-scent-003",
+  "name": "Lemon",
+  "scientific_name": "Citrus limon",
+  "category": "fruit",
+  "families": ["citrus"],
+  "descriptors": [
+    "fresh",
+    "acidic",
+    "sharp",
+    "green"
+  ],
+  "dominant_notes": [
+    {
+      "name": "citrus",
+      "intensity": 0.95
+    },
+    {
+      "name": "fresh",
+      "intensity": 0.8
+    },
+    {
+      "name": "green",
+      "intensity": 0.35
+    }
+  ],
+  "reference_compounds": [
+    {
+      "name": "limonene",
+      "role": "dominant citrus aroma"
+    },
+    {
+      "name": "citral",
+      "role": "lemon-like aroma"
+    }
+  ],
+  "sensor_profile": {
+    "sensor": "BME688",
+    "samples_available": false,
+    "dataset_path": null
+  },
+  "metadata": {
+    "version": "0.1.0",
+    "status": "reference"
+  }
+}

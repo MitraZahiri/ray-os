@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ray-os.dev/schema/scent.schema.json",
+  "title": "RĀY Scent Definition",
+  "description": "Standard scent representation used by the RĀY digital olfaction platform.",
+  "type": "object",
+
+  "required": [
+    "id",
+    "name",
+    "category",
+    "families",
+    "descriptors",
+    "sensor_profile",
+    "metadata"
+  ],
+
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^ray-scent-[0-9]{3}$"
+    },
+
+    "name": {
+      "type": "string"
+    },
+
+    "scientific_name": {
+      "type": ["string", "null"]
+    },
+
+    "category": {
+      "type": "string"
+    },
+
+    "families": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+
+    "descriptors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+
+    "dominant_notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "intensity"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "intensity": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+
+    "reference_compounds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          }
+        }
+      }
+    },
+
+    "sensor_profile": {
+      "type": "object",
+      "required": [
+        "sensor",
+        "samples_available"
+      ],
+      "properties": {
+        "sensor": {
+          "type": "string"
+        },
+
+        "samples_available": {
+          "type": "boolean"
+        },
+
+        "dataset_path": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+
+    "metadata": {
+      "type": "object",
+      "required": [
+        "version",
+        "status"
+      ],
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+
+        "status": {
+          "enum": [
+            "reference",
+            "sampling",
+            "trained",
+            "validated"
+          ]
+        }
+      }
+    }
+  },
+
+  "additionalProperties": false
+}

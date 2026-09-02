@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+
+  "descriptors": [
+    "acidic",
+    "aromatic",
+    "bitter",
+    "clean",
+    "cool",
+    "creamy",
+    "dry",
+    "earthy",
+    "fresh",
+    "green",
+    "herbal",
+    "minty",
+    "nutty",
+    "resinous",
+    "roasted",
+    "sharp",
+    "smoky",
+    "spicy",
+    "sweet",
+    "warm",
+    "woody"
+  ]
+}

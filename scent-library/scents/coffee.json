@@ -1,0 +1,50 @@
+{
+  "id": "ray-scent-002",
+  "name": "Coffee",
+  "scientific_name": "Coffea arabica",
+  "category": "food",
+  "families": [
+    "roasted",
+    "earthy"
+  ],
+  "descriptors": [
+    "roasted",
+    "warm",
+    "nutty",
+    "earthy",
+    "bitter"
+  ],
+  "dominant_notes": [
+    {
+      "name": "roasted",
+      "intensity": 0.9
+    },
+    {
+      "name": "nutty",
+      "intensity": 0.65
+    },
+    {
+      "name": "earthy",
+      "intensity": 0.45
+    }
+  ],
+  "reference_compounds": [
+    {
+      "name": "2-furfurylthiol",
+      "role": "roasted coffee aroma"
+    },
+    {
+      "name": "guaiacol",
+      "role": "smoky aroma"
+    }
+  ],
+  "sensor_profile": {
+    "sensor": "BME688",
+    "samples_available": false,
+    "dataset_path": null
+  },
+  "metadata": {
+    "version": "0.1.0",
+    "status": "reference"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "version": "0.1.0",
+
+  "families": [
+    {
+      "id": "citrus",
+      "name": "Citrus",
+      "description": "Fresh, bright and acidic citrus-like aromas."
+    },
+    {
+      "id": "floral",
+      "name": "Floral",
+      "description": "Flower-derived or flower-like aromas."
+    },
+    {
+      "id": "fruity",
+      "name": "Fruity",
+      "description": "Sweet or fresh fruit-like aromas excluding citrus."
+    },
+    {
+      "id": "green",
+      "name": "Green",
+      "description": "Fresh leaves, grass and plant-like aromas."
+    },
+    {
+      "id": "herbal",
+      "name": "Herbal",
+      "description": "Aromatic herbs and botanical aromas."
+    },
+    {
+      "id": "mint",
+      "name": "Mint",
+      "description": "Cooling menthol-like aromas."
+    },
+    {
+      "id": "woody",
+      "name": "Woody",
+      "description": "Dry wood, bark and timber-like aromas."
+    },
+    {
+      "id": "earthy",
+      "name": "Earthy",
+      "description": "Soil, mineral and damp earth-like aromas."
+    },
+    {
+      "id": "spicy",
+      "name": "Spicy",
+      "description": "Warm or sharp spice-derived aromas."
+    },
+    {
+      "id": "sweet",
+      "name": "Sweet",
+      "description": "Sugar-like, creamy or confectionery aromas."
+    },
+    {
+      "id": "roasted",
+      "name": "Roasted",
+      "description": "Roasted, toasted and browned aromas."
+    },
+    {
+      "id": "smoky",
+      "name": "Smoky",
+      "description": "Smoke, char and combustion-associated aromas."
+    },
+    {
+      "id": "resinous",
+      "name": "Resinous",
+      "description": "Tree resin, balsamic and sap-like aromas."
+    },
+    {
+      "id": "marine",
+      "name": "Marine",
+      "description": "Sea-air, aquatic and saline aromas."
+    },
+    {
+      "id": "fermented",
+      "name": "Fermented",
+      "description": "Fermentation-associated aromas."
+    },
+    {
+      "id": "sulfurous",
+      "name": "Sulfurous",
+      "description": "Sulfur-containing or sulfur-like aromas."
+    },
+    {
+      "id": "chemical",
+      "name": "Chemical",
+      "description": "Solvent, synthetic or chemically dominant aromas."
+    },
+    {
+      "id": "ambient",
+      "name": "Ambient",
+      "description": "Environmental reference conditions such as clean air."
+    }
+  ]
+}
