@@ -1,0 +1,26 @@
+{
+  "version": "0.1.0",
+  "sensor": "BME688",
+  "capture": {
+    "duration_seconds": 60,
+    "warmup_seconds": 30,
+    "sampling_interval_ms": 1000
+  },
+  "environment": {
+    "temperature": true,
+    "humidity": true,
+    "pressure": true,
+    "gas_resistance": true
+  },
+  "baseline": {
+    "required": true,
+    "scent_id": "ray-scent-001",
+    "label": "clean-air"
+  },
+  "output": {
+    "format": "csv",
+    "include_timestamp": true,
+    "include_device_id": true,
+    "include_scent_id": true
+  }
+}
