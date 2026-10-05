@@ -1,0 +1,28 @@
+name: 🐛 Bug Report
+description: Create a report to help us fix a bug in RĀY firmware, hardware, or software
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to report an issue!
+  - type: input
+    id: hardware_version
+    attributes:
+      label: Hardware / Board Details
+      description: e.g., Seeed XIAO ESP32-S3, 1.28" GC9A01 LCD, BME688 MOX Sensor
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear and concise description of the bug.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to Reproduce
+      description: Exact steps to reproduce the issue.
+    validations:
+      required: true
