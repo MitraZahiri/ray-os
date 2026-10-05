@@ -6,8 +6,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Day%201%20Alpha-blue?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Status-Day%203%20Active-blue?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Hardware-ESP32--S3-green?style=for-the-badge" alt="Hardware">
+  <img src="https://img.shields.io/badge/Display-1.28%22%20GC9A01%20Round-purple?style=for-the-badge" alt="Display">
   <img src="https://img.shields.io/badge/Sensors-BME688%20MOX%20AI-orange?style=for-the-badge" alt="Sensors">
   <img src="https://img.shields.io/badge/License-Apache--2.0-blue?style=for-the-badge" alt="License">
 </p>
@@ -51,18 +52,18 @@ It allows creators, designers, and everyday users to:
 
 ## 📂 Repository Structure
 
-- `/firmware`: Embedded C++ code for ESP32-S3, sensor drivers, and round LCD animations.
-- `/hardware`: 3D CAD files (Fusion 360 / STEP / STL) for the transparent cyber-chassis and PCB schematics.
-- `/ml-model`: Scent training data logs (CSV) and exported Edge Impulse TinyML models.
-- `/mobile-app`: Companion app for digital scent vault and community sharing.
+- [`/firmware`](firmware/): Embedded C++ code for ESP32-S3, zero-gravity circular LCD particle physics engine, and sensor drivers.
+- [`/hardware`](hardware/): 3D CAD files (Fusion 360 / STEP / STL) for the transparent cyber-chassis and PCB schematics.
+- [`/ml-model`](ml-model/): Scent training data logs (CSV) and exported Edge Impulse TinyML models.
+- [`/mobile-app`](mobile-app/): Companion app for digital scent vault and community sharing.
 
 ---
 
 ## 🚀 14-Day Build-In-Public Roadmap
 
 - [x] **Day 1:** Project Vision, Architecture, and Open Source Launch (`RĀY`).
-- [ ] **Day 2:** Sensor wiring (BME688 + ESP32) & First VOC baseline log.
-- [ ] **Day 3:** Circular LCD Eye Animation & Live Scent Waveform.
+- [x] **Day 2:** Sensor wiring (BME688 + ESP32) & First VOC baseline log.
+- [x] **Day 3 (05/10/2026):** Anti-Gravity Circular LCD Molecule Simulation & Dynamic VOC Reactive Visuals (`GC9A01` + `TFT_eSPI`).
 - [ ] **Day 4:** 3D Star Chassis CAD modeling & Ergonomics.
 - [ ] **Day 5:** First Resin Print & Chassis Assembly.
 - [ ] **Day 6:** TinyML Coffee vs. Citrus differentiation test.
