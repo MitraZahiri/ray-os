@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/MitraZahiri/ray-os/main/mobile-app/schema/scent_schema.json",
+  "version": "1.0",
+  "scent_id": "scent_20261005_ethiopian_roast",
+  "name": "Ethiopian Yirgacheffe Roast #04",
+  "category": "coffee_roasted",
+  "tags": ["coffee", "single-origin", "fruity-undertones", "medium-roast"],
+  "timestamp": "2026-10-05T22:20:00Z",
+  "location": {
+    "latitude": 41.0082,
+    "longitude": 28.9784,
+    "environment": "Indoor Roastery Lab"
+  },
+  "sensor_telemetry": {
+    "sensor_model": "Bosch BME688 MOX AI",
+    "baseline_resistance_ohms": 142500,
+    "peak_resistance_ohms": 21300,
+    "delta_ratio": 6.69,
+    "temp_celsius": 24.3,
+    "humidity_rh": 48.2,
+    "pressure_hpa": 1013.2
+  },
+  "tinyml_inference": {
+    "engine": "Edge Impulse TinyML (ESP32-S3)",
+    "model_version": "ray-tinyml-v1.2",
+    "predicted_label": "coffee",
+    "confidence": 0.94,
+    "probabilities": {
+      "coffee": 0.94,
+      "citrus": 0.03,
+      "ambient_air": 0.02,
+      "floral": 0.01
+    }
+  },
+  "piezo_recipe": {
+    "recommended_pod": "roasted_notes_v2",
+    "pulse_ms": 120,
+    "frequency_khz": 108
+  }
+}
